@@ -1,0 +1,97 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.container{
+
+  background-color: darkgray;
+  max-width: 1000px;
+  min-height: 100vh;
+  padding: 30px;
+  margin:30px auto;
+  border-radius: 20px;
+}
+.logo{
+  display:flex;
+  gap:5px;
+  align-content: center;
+  width:100%;
+  
+}
+.pic{
+  height: 100px;
+  color:inherit;
+  border: 3px solid rgb(165, 140, 140);
+  border-radius: 50%;
+}
+h2{
+  margin-left: 70px;
+  background-color: rgb(165, 140, 140);
+  font-size: 40px;
+  border-radius: 10%;
+  color:#fff;
+}
+
+
+
+form{
+  display: flex;
+  width:100%;
+  justify-content: center;
+}
+
+input{
+  border: 2px solid rgb(165, 140, 140);
+  padding:10px;
+  font-size: 16px;
+}
+input:focus{
+
+  outline: none;
+}
+
+.form-control{
+  border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width:400px;
+}
+
+.btn{
+  border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  cursor: pointer;
+  background-color: #ffbd5a;
+  color:#fff;
+}
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card{
+  width:200px;
+  background-color: rgb(165, 140, 140);
+  margin:10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+
+}
+.card-image{
+  width:100%;
+}
+.card-body{
+  padding:10px;
+  text-align: center;
+}
+.category{
+  color: #fff;
+}
+a{
+  background-color: #ffbd5a;
+  color:inherit;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  
+}
